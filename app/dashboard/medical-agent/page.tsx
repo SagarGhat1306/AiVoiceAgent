@@ -1,24 +1,12 @@
-// 'use client'
+'use client'
 
-// import { useParams } from 'next/navigation'
-// import React, { useEffect } from 'react'
+import React from 'react'
 
-// export default function MedixalVoiceAgent() {
+export default function MedixalVoiceAgent() {
 
-    
-// const {sessionId } = useParams();
-
-// useEffect ( () =>{
-//     GetSessionDetail();
-// } , [sessionId]) 
-// const GetSessionDetail = () => {
-//     const result = await axios.get('/api/session-chat?sessionId='sessionId)
-//     console,log(result.data)
-// }
-
-//   return (
-//     <div>
-//       MedicaVoiceAgent
-//     </div>
-//   )
-// }
+  return (
+    <div>
+      MedicaVoiceAgent
+    </div>
+  )
+}
